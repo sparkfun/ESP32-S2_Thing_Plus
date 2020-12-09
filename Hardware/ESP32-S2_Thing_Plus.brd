@@ -10,8 +10,8 @@
 <grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="no" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
@@ -15261,7 +15261,7 @@ design rules under a new name.</description>
 <attribute name="PROD_ID" value="SWCH-13065" x="7.78001875" y="10.868659375" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="6.25601875" y="10.868659375" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
-<element name="TP1" library="SparkFun-Connectors" package="TP_15TH" value="" x="17.7673" y="24.036021875" smashed="yes"/>
+<element name="TP1" library="SparkFun-Connectors" package="TP_15TH" value="" x="17.78" y="24.13" smashed="yes"/>
 <element name="J5" library="SparkFun-Connectors" package="USB-C-16P-4LAYER-ISOLATED" value="USB-C" x="11.43" y="6.604" smashed="yes">
 <attribute name="NAME" x="10.414" y="1.905" size="0.508" layer="25" font="vector"/>
 <attribute name="PROD_ID" value="CONN-14122" x="11.43" y="6.604" size="1.778" layer="27" display="off"/>
@@ -15872,8 +15872,8 @@ design rules under a new name.</description>
 <wire x1="17.8054" y1="22.4028" x2="17.2513" y2="22.4028" width="0.2032" layer="1"/>
 <wire x1="17.2513" y1="22.4028" x2="17.2212" y2="22.4329" width="0.2032" layer="1"/>
 <via x="17.2212" y="22.4329" extent="1-16" drill="0.381"/>
-<wire x1="17.2212" y1="22.4329" x2="17.2212" y2="23.489921875" width="0.2032" layer="16"/>
-<wire x1="17.2212" y1="23.489921875" x2="17.7673" y2="24.036021875" width="0.2032" layer="16"/>
+<wire x1="17.2212" y1="22.4329" x2="17.2212" y2="23.5712" width="0.2032" layer="16"/>
+<wire x1="17.2212" y1="23.5712" x2="17.78" y2="24.13" width="0.2032" layer="16"/>
 <wire x1="17.764521875" y1="21.752321875" x2="17.9324" y2="21.9202" width="0.2032" layer="1"/>
 <wire x1="17.9324" y1="21.9202" x2="17.9324" y2="22.2758" width="0.2032" layer="1"/>
 <wire x1="11.4274625" y1="15.621" x2="9.5504" y2="15.621" width="0.2032" layer="1"/>
@@ -15883,8 +15883,8 @@ design rules under a new name.</description>
 <wire x1="13.7922" y1="18.714721875" x2="12.64158125" y2="17.564103125" width="0.2032" layer="1"/>
 <wire x1="12.64158125" y1="17.564103125" x2="12.64158125" y2="16.83511875" width="0.2032" layer="1"/>
 <wire x1="12.64158125" y1="16.83511875" x2="11.4274625" y2="15.621" width="0.2032" layer="1"/>
-<wire x1="17.7673" y1="24.036021875" x2="14.571978125" y2="24.036021875" width="0.2032" layer="1"/>
-<wire x1="14.5034" y1="24.1046" x2="14.571978125" y2="24.036021875" width="0.2032" layer="1"/>
+<wire x1="14.5034" y1="24.1046" x2="14.5288" y2="24.13" width="0.2032" layer="1"/>
+<wire x1="17.78" y1="24.13" x2="14.5288" y2="24.13" width="0.2032" layer="1"/>
 <via x="14.5034" y="24.1046" extent="1-16" drill="0.381"/>
 <wire x1="14.5034" y1="24.1046" x2="14.6177" y2="24.2189" width="0.2032" layer="16"/>
 <wire x1="13.7922" y1="23.3934" x2="14.5034" y2="24.1046" width="0.2032" layer="1"/>
