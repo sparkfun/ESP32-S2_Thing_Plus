@@ -10,15 +10,15 @@
 <grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.0001" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="16" fill="1" visible="no" active="yes"/>
-<layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="16" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="14" fill="1" visible="no" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
@@ -31,7 +31,7 @@
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
@@ -224,6 +224,10 @@
 <wire x1="10.5689375" y1="26.370284375" x2="11.262359375" y2="26.195025" width="0.2032" layer="22" curve="-114.277589"/>
 <wire x1="11.21780625" y1="23.9771875" x2="11.108746875" y2="23.824865625" width="0.2032" layer="22"/>
 <wire x1="11.108746875" y1="23.824865625" x2="10.4026875" y2="23.939021875" width="0.2032" layer="22" curve="-114.277589"/>
+<rectangle x1="17.49551875" y1="16.28648125" x2="17.561559375" y2="16.5481" layer="41"/>
+<rectangle x1="14.716759375" y1="16.29918125" x2="14.782796875" y2="16.5608" layer="41"/>
+<rectangle x1="16.09216875" y1="14.893290625" x2="16.15820625" y2="15.154909375" layer="41" rot="R90"/>
+<rectangle x1="16.07946875" y1="17.67713125" x2="16.14550625" y2="17.93875" layer="41" rot="R90"/>
 </plain>
 <libraries>
 <library name="SparkFun-Resistors">
@@ -15661,7 +15665,6 @@ design rules under a new name.</description>
 <wire x1="11.83" y1="10.138353125" x2="11.968484375" y2="10.2768375" width="0.1778" layer="1"/>
 <wire x1="11.43" y1="8.15" x2="11.437625" y2="8.142375" width="0.1778" layer="1"/>
 <wire x1="11.437625" y1="8.142375" x2="11.437625" y2="7.399015625" width="0.1778" layer="1"/>
-<wire x1="14.0891625" y1="17.160940625" x2="13.175678125" y2="17.160940625" width="0.1778" layer="1"/>
 <wire x1="13.175678125" y1="17.160940625" x2="13.167359375" y2="17.152621875" width="0.1778" layer="1"/>
 <via x="16.080740625" y="16.3931625" extent="1-16" drill="0.254"/>
 <contactref element="R12" pad="1"/>
@@ -15699,6 +15702,9 @@ design rules under a new name.</description>
 <via x="10.294621875" y="51.51120625" extent="1-16" drill="0.254"/>
 <via x="10.2997" y="46.464225" extent="1-16" drill="0.254"/>
 <contactref element="C8" pad="2"/>
+<wire x1="14.0891625" y1="17.160940625" x2="15.060359375" y2="17.160940625" width="0.2032" layer="1"/>
+<wire x1="15.060359375" y1="17.160940625" x2="15.072359375" y2="17.172940625" width="0.2032" layer="1"/>
+<wire x1="14.0891625" y1="17.160940625" x2="13.175678125" y2="17.160940625" width="0.2032" layer="1"/>
 </signal>
 <signal name="DTR">
 <contactref element="R17" pad="1"/>
