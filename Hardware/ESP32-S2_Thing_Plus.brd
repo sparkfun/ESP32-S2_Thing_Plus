@@ -7,20 +7,20 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.0001" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="16" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
@@ -35,7 +35,7 @@
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
@@ -15345,6 +15345,7 @@ design rules under a new name.</description>
 <element name="U$7" library="output" package="#RST#0" value="" x="19.6342" y="13.9954" smashed="yes"/>
 <element name="U1" library="esp32-s2-wroom" package="ESP32-S2-WROOM" value="ESP32-S2-WROOM" x="11.43" y="45.085" smashed="yes" rot="R90">
 <attribute name="NAME" x="11.43" y="36.055" size="0.8128" layer="25" rot="R180" align="center"/>
+<attribute name="PROD_ID" value="IC-15599" x="11.43" y="45.085" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="11.43" y="37.325" size="0.8128" layer="27" rot="R180" align="center"/>
 </element>
 <element name="R10" library="SparkFun-Resistors" package="0402-TIGHT" value="10k" x="21.9735375" y="54.356" smashed="yes" rot="R270">
@@ -15367,7 +15368,9 @@ design rules under a new name.</description>
 <attribute name="PROD_ID" value="XTAL-13062" x="6.57351875" y="30.47491875" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
 <attribute name="VALUE" x="6.57351875" y="31.99891875" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
-<element name="U5" library="esp32-s2-wroom" package="UQFN10" value="TC7USB40MU" x="11.43" y="8.89" smashed="yes"/>
+<element name="U5" library="esp32-s2-wroom" package="UQFN10" value="TC7USB40MU" x="11.43" y="8.89" smashed="yes">
+<attribute name="PROD_ID" value="IC-15600" x="11.43" y="8.89" size="1.778" layer="27" display="off"/>
+</element>
 <element name="U$1" library="output" package="CP0" value="" x="18.2092625" y="5.933440625" smashed="yes" rot="R90"/>
 <element name="U$14" library="output" package="USB0" value="" x="18.24228125" y="8.717278125" smashed="yes" rot="R90"/>
 <element name="U$16" library="output" package="ESP0" value="" x="18.25751875" y="11.8237" smashed="yes" rot="R90"/>
