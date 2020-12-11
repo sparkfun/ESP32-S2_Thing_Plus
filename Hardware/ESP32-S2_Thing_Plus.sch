@@ -31630,7 +31630,7 @@ V_BATT - Single Cell (4.2V MAX)</text>
 <wire x1="152.4" y1="88.9" x2="208.28" y2="88.9" width="0.2032" layer="97" style="shortdash"/>
 <wire x1="208.28" y1="88.9" x2="208.28" y2="142.24" width="0.2032" layer="97" style="shortdash"/>
 <text x="172.466" y="136.144" size="1.27" layer="97" font="vector">Extra IO 
-2x3 SMD connector</text>
+2x4 SMD connector</text>
 <wire x1="198.12" y1="55.88" x2="121.92" y2="55.88" width="0.2032" layer="97" style="longdash"/>
 <wire x1="121.92" y1="55.88" x2="121.92" y2="0" width="0.2032" layer="97" style="longdash"/>
 <text x="126.238" y="50.038" size="2.54" layer="94" font="vector">JTAG</text>
