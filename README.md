@@ -1,4 +1,4 @@
-SparkFun ESP32 Thing Plus (U.FL)
+SparkFun ESP32-S2 Thing Plus
 ========================================
 
 [![SparkFun ESP32-S2 Thing Plus](https://cdn.sparkfun.com//assets/parts/1/6/4/1/6/17381-SparkFun_Thing_Plus_-_ESP32_WROOM__U.FL_-01.jpg)](https://www.sparkfun.com/products/17743)
