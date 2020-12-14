@@ -19,33 +19,33 @@
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
-<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
-<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
-<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
-<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
-<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
-<layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
-<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
-<layer number="49" name="Reference" color="13" fill="11" visible="no" active="yes"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="13" fill="11" visible="yes" active="yes"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
@@ -220,8 +220,6 @@ except it is slightly longer and requires the keepout zone.</description>
 <wire x1="12.021" y1="9.167" x2="19.337" y2="9.167" width="0.2032" layer="21"/>
 <wire x1="12.021" y1="-9.087" x2="19.337" y2="-9.087" width="0.2032" layer="21"/>
 <wire x1="19.337" y1="9.167" x2="19.337" y2="-9.087" width="0.2032" layer="21"/>
-<dimension x1="12.91" y1="-8.96" x2="12.91" y2="9.04" x3="20.55" y3="0.04" textsize="0.6096" layer="47" dtype="horizontal" width="0.001"/>
-<dimension x1="-11.697" y1="9.127" x2="19.337" y2="9.167" x3="3.82" y3="10.66" textsize="0.6096" layer="47" dtype="horizontal" width="0.001"/>
 <polygon width="0" layer="51">
 <vertex x="10.89" y="9"/>
 <vertex x="10.74" y="9" curve="-45"/>
@@ -372,7 +370,6 @@ except it is slightly longer and requires the keepout zone.</description>
 <vertex x="-11.01" y="8.55"/>
 <vertex x="-10.11" y="8.55"/>
 </polygon>
-<dimension x1="12.91" y1="9.04" x2="19.21" y2="9.04" x3="16.06" y3="9.63" textsize="0.6096" layer="47" dtype="horizontal" width="0.001"/>
 <polygon width="0" layer="51">
 <vertex x="-11.01" y="-8.99"/>
 <vertex x="-10.86" y="-8.99" curve="-45"/>
@@ -635,13 +632,10 @@ except it is slightly longer and requires the keepout zone.</description>
 </polygon>
 <wire x1="-11.57" y1="-9" x2="-11.57" y2="9" width="0" layer="51"/>
 <wire x1="-10.57" y1="-9" x2="-10.57" y2="9" width="0" layer="51"/>
-<dimension x1="-11.57" y1="9" x2="-10.57" y2="9" x3="-11.07" y3="11.12" textsize="0.6096" layer="47" dtype="horizontal" width="0.001"/>
 <smd name="39" x="7.44" y="-8.24" dx="0.9" dy="1.5" layer="1"/>
 <smd name="40" x="8.94" y="-8.24" dx="0.9" dy="1.5" layer="1"/>
 <smd name="41" x="10.44" y="-8.24" dx="0.9" dy="1.5" layer="1"/>
 <smd name="42" x="11.94" y="-8.24" dx="0.9" dy="1.5" layer="1"/>
-<dimension x1="-11.57" y1="9" x2="0.22" y2="1.19" x3="6.7" y3="5.095" textsize="0.6096" layer="47" dtype="vertical" width="0.001"/>
-<dimension x1="-11.57" y1="9" x2="3.88" y2="-2.06" x3="-3.845" y3="4.5" textsize="0.6096" layer="47" dtype="horizontal" width="0.001"/>
 <smd name="GNDEP1" x="5.38" y="-0.35" dx="1.1" dy="1.1" layer="1"/>
 <smd name="GNDEP2" x="5.38" y="1.15" dx="1.1" dy="1.1" layer="1"/>
 <smd name="GNDEP3" x="5.38" y="2.65" dx="1.1" dy="1.1" layer="1"/>

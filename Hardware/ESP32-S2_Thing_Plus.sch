@@ -30084,8 +30084,6 @@ except it is slightly longer and requires the keepout zone.</description>
 <wire x1="12.021" y1="9.167" x2="19.337" y2="9.167" width="0.2032" layer="21"/>
 <wire x1="12.021" y1="-9.087" x2="19.337" y2="-9.087" width="0.2032" layer="21"/>
 <wire x1="19.337" y1="9.167" x2="19.337" y2="-9.087" width="0.2032" layer="21"/>
-<dimension x1="12.91" y1="-8.96" x2="12.91" y2="9.04" x3="20.55" y3="0.04" textsize="0.6096" layer="47" dtype="horizontal" width="0.001"/>
-<dimension x1="-11.697" y1="9.127" x2="19.337" y2="9.167" x3="3.82" y3="10.66" textsize="0.6096" layer="47" dtype="horizontal" width="0.001"/>
 <polygon width="0" layer="51">
 <vertex x="10.89" y="9"/>
 <vertex x="10.74" y="9" curve="-45"/>
@@ -30236,7 +30234,6 @@ except it is slightly longer and requires the keepout zone.</description>
 <vertex x="-11.01" y="8.55"/>
 <vertex x="-10.11" y="8.55"/>
 </polygon>
-<dimension x1="12.91" y1="9.04" x2="19.21" y2="9.04" x3="16.06" y3="9.63" textsize="0.6096" layer="47" dtype="horizontal" width="0.001"/>
 <polygon width="0" layer="51">
 <vertex x="-11.01" y="-8.99"/>
 <vertex x="-10.86" y="-8.99" curve="-45"/>
@@ -30499,13 +30496,10 @@ except it is slightly longer and requires the keepout zone.</description>
 </polygon>
 <wire x1="-11.57" y1="-9" x2="-11.57" y2="9" width="0" layer="51"/>
 <wire x1="-10.57" y1="-9" x2="-10.57" y2="9" width="0" layer="51"/>
-<dimension x1="-11.57" y1="9" x2="-10.57" y2="9" x3="-11.07" y3="11.12" textsize="0.6096" layer="47" dtype="horizontal" width="0.001"/>
 <smd name="39" x="7.44" y="-8.24" dx="0.9" dy="1.5" layer="1"/>
 <smd name="40" x="8.94" y="-8.24" dx="0.9" dy="1.5" layer="1"/>
 <smd name="41" x="10.44" y="-8.24" dx="0.9" dy="1.5" layer="1"/>
 <smd name="42" x="11.94" y="-8.24" dx="0.9" dy="1.5" layer="1"/>
-<dimension x1="-11.57" y1="9" x2="0.22" y2="1.19" x3="6.7" y3="5.095" textsize="0.6096" layer="47" dtype="vertical" width="0.001"/>
-<dimension x1="-11.57" y1="9" x2="3.88" y2="-2.06" x3="-3.845" y3="4.5" textsize="0.6096" layer="47" dtype="horizontal" width="0.001"/>
 <smd name="GNDEP1" x="5.38" y="-0.35" dx="1.1" dy="1.1" layer="1"/>
 <smd name="GNDEP2" x="5.38" y="1.15" dx="1.1" dy="1.1" layer="1"/>
 <smd name="GNDEP3" x="5.38" y="2.65" dx="1.1" dy="1.1" layer="1"/>
@@ -31358,15 +31352,15 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <sheets>
 <sheet>
 <plain>
-<text x="355.6" y="160.02" size="1.905" layer="97" font="vector">Boot Mode Configuration
+<text x="348.996" y="158.242" size="1.905" layer="97" font="vector">Boot Mode Configuration
 Pin        Default     Boot   Download
 GPIO0        1         1       0
-U0TXD        1         1       x
-GPIO2        0         x       0
-GPIO4        0         x       x
-MTDO         1         x       x
-GPIO5        1         1       x
-If U0TXD, GPIO2, GPIO5 are floating, 
+GPIO45*      x         x       x 
+GPIO46       0         x       0
+
+*GPIO45 sets SPI voltage, see DS pg 17.
+
+If GPIO45 and GPIO46 are floating, 
 GPIO0 determines boot mode</text>
 <text x="243.84" y="274.32" size="2.54" layer="94" font="vector">CP2104/2N (USB-to-Serial Converter)</text>
 <text x="231.14" y="265.176" size="1.524" layer="97" font="vector" rot="MR0" align="top-left">V_BATT should be a single-
@@ -31424,14 +31418,13 @@ V_BATT - Single Cell (4.2V MAX)</text>
 <wire x1="121.92" y1="55.88" x2="121.92" y2="0" width="0.2032" layer="97" style="longdash"/>
 <text x="126.238" y="50.038" size="2.54" layer="94" font="vector">JTAG</text>
 <text x="4.572" y="184.15" size="1.778" layer="97" font="vector">Module recommended VCC range: 3.0-3.6V</text>
-<text x="296.418" y="199.136" size="2.032" layer="97" font="vector" rot="MR180" align="top-left">Default: CP210X
-Cut trace and solder
-other pad to select 
-ESP32-S2 native USB</text>
-<text x="150.368" y="151.638" size="1.778" layer="97">As recommended in datasheet,
+<text x="296.418" y="199.136" size="2.032" layer="97" font="vector" rot="MR180" align="top-left">USB Jumper
+LOW: CP210X (default)
+HIGH: ESP32-S2 native USB</text>
+<text x="150.368" y="151.638" size="1.778" layer="97" font="vector">As recommended in datasheet,
 GPIO18 should have pullup during
 boot to ensure proper boot mode.
-Cut 18PU jumper to remove pullup,
+Cut GPIO18PU jumper to remove pullup,
 but beware, this may effect bootup
 modes.</text>
 </plain>

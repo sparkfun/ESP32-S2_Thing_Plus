@@ -10,17 +10,17 @@
 <grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.0001" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="no" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
-<layer number="20" name="Dimension" color="24" fill="1" visible="no" active="yes"/>
-<layer number="21" name="tPlace" color="16" fill="1" visible="no" active="yes"/>
-<layer number="22" name="bPlace" color="14" fill="1" visible="no" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="16" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
@@ -35,12 +35,12 @@
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
-<layer number="51" name="tDocu" color="6" fill="1" visible="no" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
@@ -220,6 +220,10 @@
 <rectangle x1="14.716759375" y1="16.29918125" x2="14.782796875" y2="16.5608" layer="41"/>
 <rectangle x1="16.09216875" y1="14.893290625" x2="16.15820625" y2="15.154909375" layer="41" rot="R90"/>
 <rectangle x1="16.07946875" y1="17.67713125" x2="16.14550625" y2="17.93875" layer="41" rot="R90"/>
+<dimension x1="2.54" y1="0" x2="1.27" y2="24.13" x3="-21.59" y3="12.065" textsize="1.778" layer="47" dtype="vertical" unit="inch" visible="yes"/>
+<dimension x1="20.32" y1="0" x2="21.59" y2="13.97" x3="33.02" y3="6.985" textsize="1.778" layer="47" dtype="vertical" unit="inch" visible="yes"/>
+<dimension x1="2.54" y1="0" x2="1.27" y2="52.07" x3="-25.4" y3="26.035" textsize="1.778" layer="47" dtype="vertical" unit="inch" visible="yes"/>
+<dimension x1="20.32" y1="0" x2="21.59" y2="52.07" x3="36.83" y3="26.035" textsize="1.778" layer="47" dtype="vertical" unit="inch" visible="yes"/>
 </plain>
 <libraries>
 <library name="SparkFun-Resistors">
@@ -15163,8 +15167,6 @@ except it is slightly longer and requires the keepout zone.</description>
 <wire x1="12.021" y1="9.167" x2="19.337" y2="9.167" width="0.2032" layer="21"/>
 <wire x1="12.021" y1="-9.087" x2="19.337" y2="-9.087" width="0.2032" layer="21"/>
 <wire x1="19.337" y1="9.167" x2="19.337" y2="-9.087" width="0.2032" layer="21"/>
-<dimension x1="12.91" y1="-8.96" x2="12.91" y2="9.04" x3="20.55" y3="0.04" textsize="0.6096" layer="47" dtype="horizontal" width="0.001"/>
-<dimension x1="-11.697" y1="9.127" x2="19.337" y2="9.167" x3="3.82" y3="10.66" textsize="0.6096" layer="47" dtype="horizontal" width="0.001"/>
 <polygon width="0" layer="51">
 <vertex x="10.89" y="9"/>
 <vertex x="10.74" y="9" curve="-45"/>
@@ -15315,7 +15317,6 @@ except it is slightly longer and requires the keepout zone.</description>
 <vertex x="-11.01" y="8.55"/>
 <vertex x="-10.11" y="8.55"/>
 </polygon>
-<dimension x1="12.91" y1="9.04" x2="19.21" y2="9.04" x3="16.06" y3="9.63" textsize="0.6096" layer="47" dtype="horizontal" width="0.001"/>
 <polygon width="0" layer="51">
 <vertex x="-11.01" y="-8.99"/>
 <vertex x="-10.86" y="-8.99" curve="-45"/>
@@ -15578,13 +15579,10 @@ except it is slightly longer and requires the keepout zone.</description>
 </polygon>
 <wire x1="-11.57" y1="-9" x2="-11.57" y2="9" width="0" layer="51"/>
 <wire x1="-10.57" y1="-9" x2="-10.57" y2="9" width="0" layer="51"/>
-<dimension x1="-11.57" y1="9" x2="-10.57" y2="9" x3="-11.07" y3="11.12" textsize="0.6096" layer="47" dtype="horizontal" width="0.001"/>
 <smd name="39" x="7.44" y="-8.24" dx="0.9" dy="1.5" layer="1"/>
 <smd name="40" x="8.94" y="-8.24" dx="0.9" dy="1.5" layer="1"/>
 <smd name="41" x="10.44" y="-8.24" dx="0.9" dy="1.5" layer="1"/>
 <smd name="42" x="11.94" y="-8.24" dx="0.9" dy="1.5" layer="1"/>
-<dimension x1="-11.57" y1="9" x2="0.22" y2="1.19" x3="6.7" y3="5.095" textsize="0.6096" layer="47" dtype="vertical" width="0.001"/>
-<dimension x1="-11.57" y1="9" x2="3.88" y2="-2.06" x3="-3.845" y3="4.5" textsize="0.6096" layer="47" dtype="horizontal" width="0.001"/>
 <smd name="GNDEP1" x="5.38" y="-0.35" dx="1.1" dy="1.1" layer="1"/>
 <smd name="GNDEP2" x="5.38" y="1.15" dx="1.1" dy="1.1" layer="1"/>
 <smd name="GNDEP3" x="5.38" y="2.65" dx="1.1" dy="1.1" layer="1"/>
@@ -16350,8 +16348,9 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <wire x1="13.136878125" y1="15.19935625" x2="13.136878125" y2="15.16125625" width="0.2032" layer="1"/>
 <wire x1="13.136878125" y1="15.19935625" x2="13.1419625" y2="15.204440625" width="0.2032" layer="1"/>
 <wire x1="13.1419625" y1="15.204440625" x2="13.14958125" y2="15.212059375" width="0.2032" layer="1"/>
-<wire x1="19.481421875" y1="19.85518125" x2="19.481421875" y2="20.05038125" width="0.2032" layer="1"/>
-<wire x1="20.0126625" y1="20.581621875" x2="19.481421875" y2="20.05038125" width="0.2032" layer="1"/>
+<wire x1="19.481421875" y1="19.85518125" x2="19.481421875" y2="20.45678125" width="0.2032" layer="1"/>
+<wire x1="20.0126625" y1="20.581621875" x2="19.6062625" y2="20.581621875" width="0.2032" layer="1"/>
+<wire x1="19.6062625" y1="20.581621875" x2="19.481421875" y2="20.45678125" width="0.2032" layer="1"/>
 <via x="20.0126625" y="20.581621875" extent="1-16" drill="0.381"/>
 <via x="9.847578125" y="12.5755375" extent="1-16" drill="0.3048"/>
 <wire x1="7.1675" y1="25.6896" x2="8.4455375" y2="25.6896" width="0.508" layer="1"/>
@@ -16653,9 +16652,9 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <contactref element="Q2" pad="4"/>
 <contactref element="U2" pad="19"/>
 <wire x1="17.871440625" y1="20.452321875" x2="17.203940625" y2="20.452321875" width="0.2032" layer="1"/>
-<wire x1="19.7612" y1="21.852" x2="19.7612" y2="21.1582" width="0.2032" layer="1"/>
-<wire x1="19.055321875" y1="20.452321875" x2="17.871440625" y2="20.452321875" width="0.2032" layer="1"/>
-<wire x1="19.7612" y1="21.1582" x2="19.055321875" y2="20.452321875" width="0.2032" layer="1"/>
+<wire x1="19.7612" y1="21.852" x2="19.7612" y2="21.353778125" width="0.2032" layer="1"/>
+<wire x1="18.85974375" y1="20.452321875" x2="17.871440625" y2="20.452321875" width="0.2032" layer="1"/>
+<wire x1="19.7612" y1="21.353778125" x2="18.85974375" y2="20.452321875" width="0.2032" layer="1"/>
 <wire x1="17.3891625" y1="18.460940625" x2="17.3891625" y2="19.1163625" width="0.2032" layer="1"/>
 <wire x1="17.871440625" y1="19.598640625" x2="17.871440625" y2="20.452321875" width="0.2032" layer="1"/>
 <wire x1="17.3891625" y1="19.1163625" x2="17.871440625" y2="19.598640625" width="0.2032" layer="1"/>
