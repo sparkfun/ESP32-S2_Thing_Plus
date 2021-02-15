@@ -7,11 +7,11 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.005" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
@@ -196,7 +196,7 @@
 <wire x1="0" y1="2.54" x2="2.54" y2="0" width="0.2032" layer="20" curve="90"/>
 <wire x1="2.54" y1="0" x2="20.32" y2="0" width="0.2032" layer="20"/>
 <wire x1="20.32" y1="0" x2="22.86" y2="2.54" width="0.2032" layer="20" curve="90"/>
-<text x="12.2809" y="0.868678125" size="1.016" layer="16" font="vector" ratio="20" rot="MR0" align="center-left">v01</text>
+<text x="12.2809" y="0.868678125" size="1.016" layer="16" font="vector" ratio="20" rot="MR0" align="center-left">v10</text>
 <text x="5.7023" y="56.974740625" size="0.8128" layer="1" font="vector" ratio="25">1</text>
 <text x="6.4643" y="56.974740625" size="0.8128" layer="2" font="vector" ratio="25">2</text>
 <text x="5.7023" y="56.085740625" size="0.8128" layer="15" font="vector" ratio="25">3</text>
@@ -15715,32 +15715,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="-0.1905" y="-0.127"/>
 </polygon>
 </package>
-<package name="SMT-JUMPER_2_NC_TRACE_SILK" urn="urn:adsk.eagle:footprint:39258/1" locally_modified="yes">
-<wire x1="0.762" y1="-1.016" x2="-0.762" y2="-1.016" width="0.2032" layer="21"/>
-<wire x1="0.762" y1="1.016" x2="1.2192" y2="0.5588" width="0.2032" layer="21" curve="-90"/>
-<wire x1="-1.2192" y1="0.5588" x2="-0.762" y2="1.016" width="0.2032" layer="21" curve="-90"/>
-<wire x1="-1.2192" y1="-0.5588" x2="-0.762" y2="-1.016" width="0.2032" layer="21" curve="90"/>
-<wire x1="0.762" y1="-1.016" x2="1.2192" y2="-0.5588" width="0.2032" layer="21" curve="90"/>
-<wire x1="1.2192" y1="-0.5588" x2="1.2192" y2="0.5588" width="0.2032" layer="21"/>
-<wire x1="-1.2192" y1="-0.5588" x2="-1.2192" y2="0.5588" width="0.2032" layer="21"/>
-<wire x1="-0.762" y1="1.016" x2="0.762" y2="1.016" width="0.2032" layer="21"/>
-<smd name="1" x="-0.5207" y="0" dx="0.6604" dy="1.27" layer="1" cream="no"/>
-<smd name="2" x="0.5207" y="0" dx="0.6604" dy="1.27" layer="1" cream="no"/>
-<text x="0" y="1.143" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-1.143" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-<polygon width="0.127" layer="29">
-<vertex x="-0.1905" y="0.127"/>
-<vertex x="0.1905" y="0.127"/>
-<vertex x="0.1905" y="-0.127"/>
-<vertex x="-0.1905" y="-0.127"/>
-</polygon>
-<polygon width="0.0127" layer="1">
-<vertex x="-0.6985" y="0.127"/>
-<vertex x="0.18415" y="0.127"/>
-<vertex x="0.18415" y="-0.127"/>
-<vertex x="-0.6985" y="-0.127"/>
-</polygon>
-</package>
 </packages>
 <packages3d>
 <package3d name="SMT-JUMPER_3_1-NC_TRACE_SILK" urn="urn:adsk.eagle:package:39288/1" type="box">
@@ -15748,9 +15722,42 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <packageinstance name="SMT-JUMPER_3_1-NC_TRACE_SILK"/>
 </packageinstances>
 </package3d>
-<package3d name="SMT-JUMPER_2_NC_TRACE_SILK" urn="urn:adsk.eagle:package:39281/1" type="box">
+</packages3d>
+</library>
+<library name="SparkFun-Jumpers" urn="urn:adsk.eagle:library:528">
+<description>&lt;h3&gt;SparkFun Jumpers&lt;/h3&gt;
+In this library you'll find jumpers, or other semipermanent means of changing current paths. The least permanent form is the solder jumper. These can be changed by adding, removing, or moving solder. In cases that are less likely to be changed we have jumpers that are connected with traces. These can be cut with a razor, or reconnected with solder. Reference designator JP.
+&lt;br&gt;
+&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="SMT-JUMPER_2_NO_SILK" urn="urn:adsk.eagle:footprint:39254/1" library_version="1">
+<text x="0" y="1.143" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.143" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<wire x1="0.8636" y1="-1.016" x2="-0.8636" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="0.8636" y1="1.016" x2="1.1176" y2="0.762" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-1.1176" y1="0.762" x2="-0.8636" y2="1.016" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-1.1176" y1="-0.762" x2="-0.8636" y2="-1.016" width="0.1524" layer="21" curve="90"/>
+<wire x1="0.8636" y1="-1.016" x2="1.1176" y2="-0.762" width="0.1524" layer="21" curve="90"/>
+<wire x1="1.1176" y1="-0.762" x2="1.1176" y2="0.762" width="0.1524" layer="21"/>
+<wire x1="-1.1176" y1="-0.762" x2="-1.1176" y2="0.762" width="0.1524" layer="21"/>
+<wire x1="-0.8636" y1="1.016" x2="0.8636" y2="1.016" width="0.1524" layer="21"/>
+<smd name="1" x="-0.4064" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
+<smd name="2" x="0.4064" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="SMT-JUMPER_2_NO_SILK" urn="urn:adsk.eagle:package:39279/1" type="box" library_version="1">
 <packageinstances>
-<packageinstance name="SMT-JUMPER_2_NC_TRACE_SILK"/>
+<packageinstance name="SMT-JUMPER_2_NO_SILK"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -16279,7 +16286,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <attribute name="PROD_ID" value="RES-14241" x="19.4056" y="26.6954" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 <attribute name="VALUE" x="20.522540625" y="26.705559375" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
-<element name="GPIO18PU" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value="" x="16.1544" y="33.274" smashed="yes" rot="MR0">
+<element name="GPIO18PU" library="SparkFun-Jumpers" library_urn="urn:adsk.eagle:library:528" package="SMT-JUMPER_2_NO_SILK" package3d_urn="urn:adsk.eagle:package:39279/1" value="" x="16.1544" y="33.274" smashed="yes" rot="MR0">
 <attribute name="NAME" x="16.1544" y="34.417" size="0.6096" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
 <attribute name="VALUE" x="16.1544" y="32.131" size="0.6096" layer="28" font="vector" ratio="20" rot="MR0" align="top-center"/>
 </element>
@@ -16816,7 +16823,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <contactref element="GPIO18PU" pad="1"/>
 <via x="20.360640625" y="30.48" extent="1-16" drill="0.254"/>
 <wire x1="20.360640625" y1="30.48" x2="20.0406" y2="30.800040625" width="0.1778" layer="16"/>
-<wire x1="18.6436" y1="33.274" x2="16.6751" y2="33.274" width="0.1778" layer="16"/>
+<wire x1="18.6436" y1="33.274" x2="16.5608" y2="33.274" width="0.1778" layer="16"/>
 <wire x1="20.0406" y1="30.800040625" x2="20.0406" y2="31.877" width="0.1778" layer="16"/>
 <wire x1="20.0406" y1="31.877" x2="18.6436" y2="33.274" width="0.1778" layer="16"/>
 </signal>
@@ -17448,13 +17455,14 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <signal name="N$14">
 <contactref element="R14" pad="1"/>
 <contactref element="GPIO18PU" pad="2"/>
-<wire x1="15.6337" y1="33.274" x2="15.6337" y2="32.3977" width="0.1778" layer="16"/>
-<wire x1="15.9512" y1="32.0802" x2="18.415" y2="32.0802" width="0.1778" layer="16"/>
+<wire x1="15.748" y1="33.274" x2="15.748" y2="32.39935625" width="0.1778" layer="16"/>
+<wire x1="15.7607" y1="32.3977" x2="15.748" y2="32.39935625" width="0.1778" layer="16"/>
+<wire x1="16.0782" y1="32.0802" x2="18.415" y2="32.0802" width="0.1778" layer="16"/>
 <wire x1="18.415" y1="32.0802" x2="19.4056" y2="31.0896" width="0.1778" layer="16"/>
 <wire x1="19.4056" y1="31.0896" x2="19.4056" y2="28.0924" width="0.1778" layer="16"/>
 <via x="19.4056" y="28.0924" extent="1-16" drill="0.254"/>
 <wire x1="19.4056" y1="28.0924" x2="19.4056" y2="27.1954" width="0.1778" layer="1"/>
-<wire x1="15.6337" y1="32.3977" x2="15.9512" y2="32.0802" width="0.1778" layer="16"/>
+<wire x1="15.7607" y1="32.3977" x2="16.0782" y2="32.0802" width="0.1778" layer="16"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
@@ -17492,6 +17500,11 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 </board>
 </drawing>
 <compatibility>
+<note version="8.2" severity="warning">
+Since Version 8.2, EAGLE supports online libraries. The ids
+of those online libraries will not be understood (or retained)
+with this version.
+</note>
 <note version="8.3" severity="warning">
 Since Version 8.3, EAGLE supports URNs for individual library
 assets (packages, symbols, and devices). The URNs of those assets
