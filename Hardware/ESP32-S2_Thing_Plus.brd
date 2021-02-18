@@ -187,7 +187,7 @@
 </layers>
 <board>
 <plain>
-<text x="13.97" y="-19.05" size="1.778" layer="51" font="vector">Pete Lewis</text>
+<text x="13.97" y="-20.32" size="1.778" layer="51" font="vector">Pete Lewis</text>
 <wire x1="22.86" y1="2.54" x2="22.86" y2="62.23" width="0.2032" layer="20"/>
 <wire x1="22.86" y1="62.23" x2="20.32" y2="64.77" width="0.2032" layer="20" curve="90"/>
 <wire x1="20.32" y1="64.77" x2="2.54" y2="64.77" width="0.2032" layer="20"/>
@@ -203,15 +203,15 @@
 <text x="7.0993" y="56.085740625" size="0.8128" layer="16" font="vector" ratio="25" rot="MR0">4</text>
 <text x="7.366" y="20.066" size="1.6764" layer="21" font="vector" ratio="15" align="center">+</text>
 <text x="7.3406" y="15.5194" size="1.6764" layer="21" font="vector" ratio="15" align="center">-</text>
-<dimension x1="2.54" y1="2.54" x2="2.54" y2="0" x3="-2.54" y3="1.27" textsize="1.778" layer="47" unit="inch" visible="yes"/>
-<dimension x1="5.08" y1="9.398" x2="5.08" y2="0" x3="-7.62" y3="4.699" textsize="1.778" layer="47" unit="inch" visible="yes"/>
-<dimension x1="3.4798" y1="17.78" x2="3.4798" y2="0" x3="-11.15188125" y3="8.89" textsize="1.778" layer="47" unit="inch" visible="yes"/>
-<dimension x1="20.32" y1="2.54" x2="20.32" y2="0" x3="26.67" y3="1.27" textsize="1.778" layer="47" unit="inch" visible="yes"/>
-<dimension x1="2.54" y1="2.54" x2="0" y2="2.54" x3="1.27" y3="-5.08" textsize="1.778" layer="47" unit="inch" visible="yes"/>
-<dimension x1="20.32" y1="2.54" x2="22.86" y2="2.54" x3="21.59" y3="-5.08" textsize="1.778" layer="47" unit="inch" visible="yes"/>
-<dimension x1="22.86" y1="2.54" x2="0" y2="2.54" x3="11.43" y3="-16.51" textsize="1.778" layer="47" unit="inch" visible="yes"/>
-<dimension x1="2.54" y1="0" x2="2.54" y2="64.77" x3="-16.51" y3="32.385" textsize="1.778" layer="47" unit="inch" visible="yes"/>
-<text x="-5.08" y="-21.59" size="1.778" layer="51" font="vector">Based on designs by: M. Hord, A. Wende</text>
+<dimension x1="2.54" y1="2.54" x2="2.54" y2="0" x3="-3.81" y3="1.27" textsize="1.016" textratio="10" layer="47" width="0.0762" unit="inch"/>
+<dimension x1="5.08" y1="9.398" x2="5.08" y2="0" x3="-7.62" y3="4.699" textsize="1.016" textratio="10" layer="47" width="0.0762" unit="inch"/>
+<dimension x1="3.4798" y1="17.78" x2="3.4798" y2="0" x3="-11.43" y3="8.89" textsize="1.016" textratio="10" layer="47" width="0.0762" unit="inch"/>
+<dimension x1="20.32" y1="2.54" x2="20.32" y2="0" x3="26.67" y3="1.27" textsize="1.016" textratio="10" layer="47" width="0.0762" unit="inch"/>
+<dimension x1="2.54" y1="2.54" x2="0" y2="2.54" x3="1.27" y3="-5.08" textsize="1.016" textratio="10" layer="47" width="0.0762" unit="inch"/>
+<dimension x1="20.32" y1="2.54" x2="22.86" y2="2.54" x3="21.59" y3="-5.08" textsize="1.016" textratio="10" layer="47" width="0.0762" unit="inch"/>
+<dimension x1="22.86" y1="2.54" x2="0" y2="2.54" x3="11.43" y3="-12.7" textsize="1.016" textratio="10" layer="47" width="0.0762" unit="inch" visible="yes"/>
+<dimension x1="2.54" y1="0" x2="2.54" y2="64.77" x3="-22.86" y3="32.385" textsize="1.016" textratio="10" layer="47" width="0.0762" unit="inch" visible="yes"/>
+<text x="-5.08" y="-22.86" size="1.778" layer="51" font="vector">Based on designs by: M. Hord, A. Wende</text>
 <wire x1="10.44701875" y1="26.228046875" x2="10.5689375" y2="26.370284375" width="0.2032" layer="22"/>
 <wire x1="10.5689375" y1="26.370284375" x2="11.262359375" y2="26.195025" width="0.2032" layer="22" curve="-114.277589"/>
 <wire x1="11.21780625" y1="23.9771875" x2="11.108746875" y2="23.824865625" width="0.2032" layer="22"/>
@@ -220,13 +220,14 @@
 <rectangle x1="14.716759375" y1="16.29918125" x2="14.782796875" y2="16.5608" layer="41"/>
 <rectangle x1="16.09216875" y1="14.893290625" x2="16.15820625" y2="15.154909375" layer="41" rot="R90"/>
 <rectangle x1="16.07946875" y1="17.67713125" x2="16.14550625" y2="17.93875" layer="41" rot="R90"/>
-<dimension x1="2.54" y1="0" x2="1.27" y2="24.13" x3="-21.59" y3="12.065" textsize="1.778" layer="47" dtype="vertical" unit="inch" visible="yes"/>
-<dimension x1="20.32" y1="0" x2="21.59" y2="13.97" x3="33.02" y3="6.985" textsize="1.778" layer="47" dtype="vertical" unit="inch" visible="yes"/>
-<dimension x1="2.54" y1="0" x2="1.27" y2="52.07" x3="-25.4" y3="26.035" textsize="1.778" layer="47" dtype="vertical" unit="inch" visible="yes"/>
-<dimension x1="20.32" y1="0" x2="21.59" y2="52.07" x3="36.83" y3="26.035" textsize="1.778" layer="47" dtype="vertical" unit="inch" visible="yes"/>
-<dimension x1="20.32" y1="0" x2="17.3329625" y2="28.658825" x3="41.91" y3="14.3294125" textsize="1.778" layer="47" dtype="vertical" width="0.127" unit="inch" visible="yes"/>
-<dimension x1="0" y1="62.23" x2="17.3329625" y2="28.658825" x3="8.66648125" y3="68.58" textsize="1.778" layer="47" dtype="horizontal" width="0.127" unit="inch" visible="yes"/>
-<dimension x1="0" y1="2.54" x2="11.43" y2="6.604" x3="5.715" y3="-10.16" textsize="1.778" layer="47" dtype="horizontal" width="0.127" unit="inch" visible="yes"/>
+<dimension x1="2.54" y1="0" x2="1.27" y2="24.13" x3="-15.24" y3="12.065" textsize="1.016" textratio="10" layer="47" dtype="vertical" width="0.0762" unit="inch"/>
+<dimension x1="20.32" y1="0" x2="21.59" y2="13.97" x3="30.48" y3="6.985" textsize="1.016" textratio="10" layer="47" dtype="vertical" width="0.0762" unit="inch"/>
+<dimension x1="2.54" y1="0" x2="1.27" y2="52.07" x3="-19.05" y3="26.035" textsize="1.016" textratio="10" layer="47" dtype="vertical" width="0.0762" unit="inch"/>
+<dimension x1="20.32" y1="0" x2="21.59" y2="52.07" x3="38.1" y3="26.035" textsize="1.016" textratio="10" layer="47" dtype="vertical" width="0.0762" unit="inch" visible="yes"/>
+<dimension x1="20.32" y1="0" x2="17.3329625" y2="28.658825" x3="34.29" y3="14.3294125" textsize="1.016" textratio="10" layer="47" dtype="vertical" width="0.0762" unit="inch"/>
+<dimension x1="0" y1="62.23" x2="17.3329625" y2="28.658825" x3="8.66648125" y3="68.58" textsize="1.016" textratio="10" layer="47" dtype="horizontal" width="0.0762" unit="inch" visible="yes"/>
+<dimension x1="0" y1="2.54" x2="11.43" y2="6.604" x3="5.715" y3="-8.89" textsize="1.016" textratio="10" layer="47" dtype="horizontal" width="0.0762" unit="inch"/>
+<text x="-36.83" y="-8.89" size="1.778" layer="47" font="vector" ratio="10">Measure Units: INCHES</text>
 </plain>
 <libraries>
 <library name="SparkFun-Resistors">
@@ -15878,9 +15879,9 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <attribute name="PROD_ID" value="SWCH-13065" x="16.7132" y="10.414" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 <attribute name="VALUE" x="15.1892" y="10.414" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
-<element name="FRAME1" library="SparkFun-Aesthetics" package="CREATIVE_COMMONS" value="FRAME-LEDGER" x="-17.145" y="-19.05" smashed="yes">
-<attribute name="DESIGNER" value="" x="-17.145" y="-19.05" size="1.778" layer="27" display="off"/>
-<attribute name="REV" value="" x="-17.145" y="-19.05" size="1.778" layer="27" display="off"/>
+<element name="FRAME1" library="SparkFun-Aesthetics" package="CREATIVE_COMMONS" value="FRAME-LEDGER" x="-17.145" y="-20.32" smashed="yes">
+<attribute name="DESIGNER" value="" x="-17.145" y="-20.32" size="1.778" layer="27" display="off"/>
+<attribute name="REV" value="" x="-17.145" y="-20.32" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C7" library="SparkFun-Capacitors" package="0402-TIGHT" value="1.0uF" x="6.4516" y="22.5298" smashed="yes">
 <attribute name="NAME" x="6.4516" y="23.2918" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
