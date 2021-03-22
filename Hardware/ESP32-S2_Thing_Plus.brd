@@ -15876,7 +15876,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <elements>
 <element name="S1" library="SparkFun-Switches" package="TACTILE_SWITCH_SMD_4.6X2.8MM" value="RESET" x="16.7132" y="10.414" smashed="yes" rot="R270">
 <attribute name="NAME" x="18.2372" y="10.414" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
-<attribute name="PROD_ID" value="SWCH-13065" x="16.7132" y="10.414" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
+<attribute name="PROD_ID" value="SWCH-15606" x="16.7132" y="10.414" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 <attribute name="VALUE" x="15.1892" y="10.414" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
 <element name="FRAME1" library="SparkFun-Aesthetics" package="CREATIVE_COMMONS" value="FRAME-LEDGER" x="-17.145" y="-20.32" smashed="yes">
@@ -16016,7 +16016,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <element name="FD4" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="0.74421875" y="4.142740625" smashed="yes" rot="MR0"/>
 <element name="S2" library="SparkFun-Switches" package="TACTILE_SWITCH_SMD_4.6X2.8MM" value="0" x="7.78001875" y="10.414" smashed="yes" rot="R270">
 <attribute name="NAME" x="9.30401875" y="10.414" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
-<attribute name="PROD_ID" value="SWCH-13065" x="7.78001875" y="10.414" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PROD_ID" value="SWCH-15606" x="7.78001875" y="10.414" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="8.0137" y="10.43431875" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
 <element name="TP1" library="SparkFun-Connectors" package="TP_15TH" value="" x="17.78" y="24.13" smashed="yes"/>
