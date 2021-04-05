@@ -31500,7 +31500,8 @@ HIGH: ESP32-S2 native USB</text>
 Can be used to hold pin in 
 known state during entry into
 download boot mode. 
-See datasheet pg 19.</text>
+See Wroom module datasheet
+Pg 19, Fig 6, Note 3.</text>
 </plain>
 <instances>
 <instance part="S1" gate="G$1" x="292.1" y="27.94" smashed="yes">
