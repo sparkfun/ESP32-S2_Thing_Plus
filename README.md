@@ -5,9 +5,7 @@ SparkFun ESP32-S2 Thing Plus
 
 [*SparkFun ESP32-S2 Thing Plus (WRL-17381)*](https://www.sparkfun.com/products/17743)
 
-The [SparkFun ESP32 Thing Plus (U.FL)](https://www.sparkfun.com/products/17381) is a comprehensive development platform for [Espressif's ESP32](https://espressif.com/en/products/hardware/esp32/overview). This board has the ESP32-WROOM-32EU version of the module which contains a U.FL connector for your antenna. Like the 8266 and ESP32 Thing, the ESP32 Thing Plus is a **WiFi**-compatible microcontroller with support for **Bluetooth low-energy** (i.e BLE, BT4.0, Bluetooth Smart), a Qwiic adapter, and 21 I/O pins. Add to that a rich set of peripherals ranging from capacitive touch sensors, Hall sensors, SD card interface, Ethernet, high-speed SPI, UART, I2S and I<sup>2</sup>C.
-
-Upgraded and easy to use, the Esp32 Thing Plus will help make it the foundation of IoT and connected projects for many years to come.
+The [SparkFun ESP32-S2 Thing Plus](https://www.sparkfun.com/products/17743) is a comprehensive development platform for [Espressif's ESP32](https://espressif.com/en/products/hardware/esp32/overview). This board has the ESP32-S2-WROOM (4MB) version of the module. The new ESP32-S2 module addresses the [security flaws](https://www.espressif.com/en/news/ESP32_FIA_Analysis) in the original ESP32. While the ESP32-S2 does include improved security features, it lacks the Bluetooth capabilities of the original ESP32 module. The ESP32-S2 Thing Plus includes a Qwiic adapter, LiPo battery JST connector, and 21 I/O pins.
 
 Repository Contents
 -------------------
@@ -17,13 +15,12 @@ Repository Contents
 
 Documentation
 --------------
-* **[Hookup Guide](https://learn.sparkfun.com/tutorials/esp32-thing-plus-hookup-guide)** - Basic hookup guide for the ESP32 Thing Plus.
-* **[SparkFun Fritzing repo](https://github.com/sparkfun/Fritzing_Parts)** - Fritzing diagrams for SparkFun products.
+* **[Hookup Guide](https://learn.sparkfun.com/tutorials/1660)** - Basic hookup guide for the ESP32-S2 Thing Plus.
 * **[SparkFun Graphical Datasheets](https://github.com/sparkfun/Graphical_Datasheets)** -Graphical Datasheets for various SparkFun products.
 
 Product Versions
 ----------------
-* [WRL-17381](https://www.sparkfun.com/products/17381)- v1.0, Initial Release
+* [WRL-17743](https://www.sparkfun.com/products/17743)- v1.0, Initial Release
 
 License Information
 -------------------
